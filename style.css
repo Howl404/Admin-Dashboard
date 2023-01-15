@@ -6,7 +6,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 4fr;
   grid-template-areas:
     "sidebar nav"
@@ -27,11 +27,11 @@ img {
 
 .dashboard {
   display: grid;
-  font-size: 2rem;
+  font-size: 1.6rem;
   grid-template-columns: auto 1fr;
   justify-items: start;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem 2rem 1.5rem 1rem;
   font-weight: bold;
 }
 
@@ -60,9 +60,77 @@ img {
 .nav {
   background-color: white;
   grid-area: nav;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-bottom: 1rem;
 }
 
 .main {
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.2);
   grid-area: main;
+}
+
+.nav .search {
+  padding: 0 0 0 3rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+input {
+  width: 90%;
+  height: 1.6rem;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.2);
+  margin-left: 1rem;
+}
+
+.nav .profile {
+  display: grid;
+  grid-template-columns: 24px auto auto;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.profile img {
+  border-radius: 50%;
+  height: 50px;
+}
+
+.profile p {
+  font-weight: bold;
+  padding-right: 5rem;
+}
+
+.hi {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 3rem;
+}
+
+.hi img {
+  border-radius: 50%;
+}
+
+.buttons {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 7rem 7rem 7rem;
+}
+
+.buttons button {
+  background-color: #0ea5e9;
+  border: none;
+  border-radius: 22px;
+  height: 2.5rem;
+  width: 6rem;
+  color: white;
+  font-weight: bold;
 }
