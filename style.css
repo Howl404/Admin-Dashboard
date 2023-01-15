@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas:
+    "sidebar nav"
+    "sidebar main";
+  width: 100%;
+  height: 100vh;
+}
+
+img {
+  height: 80px;
+}
+
+.sidebar {
+  background-color: #0ea5e9;
+  grid-area: sidebar;
+  color: white;
+}
+
+.dashboard {
+  display: grid;
+  font-size: 2rem;
+  grid-template-columns: auto 1fr;
+  justify-items: start;
+  align-items: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.dashboard p {
+  padding-left: 0.5rem;
+}
+
+.dashboard-small {
+  display: grid;
+  font-size: 1rem;
+  grid-template-columns: auto 1fr;
+  justify-items: start;
+  align-items: center;
+  padding: 1rem 0 0 1.8rem;
+  font-weight: bold;
+}
+
+.dashboard-small p {
+  padding-left: 1.3rem;
+}
+
+.second-dashboard {
+  padding-top: 3rem;
+}
+
+.nav {
+  background-color: white;
+  grid-area: nav;
+}
+
+.main {
+  background-color: grey;
+  grid-area: main;
+}
