@@ -6,7 +6,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows: auto 4fr;
   grid-template-areas:
     "sidebar nav"
