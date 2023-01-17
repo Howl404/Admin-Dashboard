@@ -20,7 +20,7 @@ img {
 }
 
 .sidebar {
-  background-color: #0ea5e9;
+  background-color: #1992d4;
   grid-area: sidebar;
   color: white;
   font-weight: bold;
@@ -120,7 +120,7 @@ input {
 }
 
 .buttons button {
-  background-color: #0ea5e9;
+  background-color: #1992d4;
   border: none;
   border-radius: 22px;
   height: 2.5rem;
@@ -130,7 +130,7 @@ input {
 }
 
 .main {
-  background-color: rgba(128, 128, 128, 0.2);
+  background-color: #e2e8f0;
   grid-area: main;
   display: grid;
   padding: 1rem 2rem;
@@ -163,7 +163,7 @@ input {
 
 .project-color {
   grid-row: 1/-1;
-  background-color: #0ea5e9;
+  background-color: #f0b429;
   border-radius: 20px 0 0 20px;
   width: 80%;
 }
@@ -176,7 +176,7 @@ input {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1rem 2rem 2rem 1rem;
 }
 
 .announcements-trending {
