@@ -130,6 +130,13 @@ input {
   font-weight: bold;
 }
 
+.buttons button:hover {
+  background-color: white;
+  border: 1px solid #1992d4;
+  color: #1992d4;
+  cursor: pointer;
+}
+
 .main {
   background-color: #e2e8f0;
   grid-area: main;
